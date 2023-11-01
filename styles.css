@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'ChunkFive';
+    src: local("ChunkFive"), url("ChunkFive-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: local("Alex Brush"), url("AlexBrush-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: #ffe6ec;
+    font-family: 'Alex Brush', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'ChunkFive', Arial, sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'ChunkFive', Arial, sans-serif;
+    font-size: 32px;
+}
+
+header {
+    background-color: #ffe6ec;
+    color: #ff66b3;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    background-color: #ffcce6;
+    border: 1px solid #ffcce6;
+    border-radius: 10px;
+    color: blue;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #eedde6;
+    border: 1px solid #eedde6;
+    color: #FFFFF3;
+}
+
+footer {
+    background-color: #eedde6;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.introduction {
+    border: 1px solid #ffe6ec;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 2rem;
+    text-align: center;
+    color: #ff99bb;
+}
+
+.regular-block {
+    background: #ffe6ee;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 2rem;
+    transition: 0.5s;
+}
+
+.regular-block:hover {
+    box-shadow: 0 0 25px #ffe6ee;
+}
+
+.first {
+    border-bottom: 1px dotted #ffe6ee;
+    padding-bottom: 2rem;
+}
+
+.last {
+    padding-top: 2rem;
+}
